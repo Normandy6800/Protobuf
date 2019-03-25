@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message RequestLogin
+{
+    int32 id = 1;
+}
+
+message RespondLogin
+{
+    int32 code = 1;
+}
